@@ -13,7 +13,6 @@ export default class SearchBar extends Component {
   }
   onInputChange(event) {
     this.setState({ term: event.target.value });
-    console.log(event.target.value);
   }
 
   onFormSubmit(event) {
